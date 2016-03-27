@@ -8,8 +8,14 @@ namespace task05
 {
 	class Program
 	{
+		/// <summary>
+		/// Точка входа в программу
+		/// </summary>
+		/// <param name="args"></param>
 		static void Main(string[] args)
 		{
+			Controller controller = new Controller();
+			controller.Menu();
 		}
 	}
 }
